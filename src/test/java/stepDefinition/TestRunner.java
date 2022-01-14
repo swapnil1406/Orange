@@ -11,7 +11,7 @@ import io.cucumber.junit.CucumberOptions;
 		stepNotifications=true,
 		glue="stepDefinition",
 		monochrome = true,
-		tags="@SmokeTest or @RegTest",
+		tags="@SmokeTest",
 		plugin= {"pretty","html:target/HtmlReports/result.html"}
 		)
 
