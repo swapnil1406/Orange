@@ -4,30 +4,30 @@ Feature: Feature to test leave functionality
     Given User login with username as "Admin" password as "admin123"
     When User navigate to leave link
 
-  @RegTest
+  @Reg
   Scenario Outline: Apply leave
     Then Click apply leave
 
-  @SmokeTest
+  @Smoke
   Scenario Outline: Get my leaves
     Then Click my leaves
 
-  @SmokeTest
+  @Sanity
   Scenario Outline: Check entitlements
     Then Click entitlements
 
-  @SmokeTest
+  @Sanity
   Scenario Outline: Get leave reports
     Then Click leave reports
 
-  @SmokeTest
+  @Sanity
   Scenario Outline: Configure leaves
     Then Click configure
 
-  @SmokeTest
+  @Smoke
   Scenario Outline: Leave list
     Then Click leave list
 
-  @SmokeTest
+  @Smoke
   Scenario Outline: Assign leave
     Then Click Assign leave

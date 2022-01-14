@@ -43,9 +43,8 @@ public class UserSearch {
 	
 	@Before
 	public void browser_open() throws Throwable {
-		ChromeOptions options = new ChromeOptions();
-		options.addArguments("headless");
-		driver = new ChromeDriver(options);
+//		ChromeOptions options = new ChromeOptions();
+		driver = new ChromeDriver();
 		baseURL = "https://opensource-demo.orangehrmlive.com";
 		driver.get(baseURL);
 		driver.manage().window().maximize();

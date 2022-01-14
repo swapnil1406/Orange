@@ -4,14 +4,14 @@ Feature: Retrieve employee list
     Given User login with username as "Admin" password as "admin123"
     When User navigate to pim link
 
-  @RegTest
+  @Reg
   Scenario Outline: View employee list
     Then Clicks employee list link to display employee
 
-  @SmokeTest
+  @Sanity
   Scenario Outline: Get employee report
     Then Clicks report to get employee report
 
-  @SmokeTest
+  @Sanity
   Scenario Outline: Add employee
     Then Clicks add employee to add employee
