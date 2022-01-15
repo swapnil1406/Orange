@@ -43,8 +43,9 @@ public class UserSearch {
 	
 	@Before
 	public void browser_open() throws Throwable {
-//		ChromeOptions options = new ChromeOptions();
-		driver = new ChromeDriver();
+		ChromeOptions options = new ChromeOptions();
+		options.addArguments("headless");
+		driver = new ChromeDriver(options);
 		baseURL = "https://opensource-demo.orangehrmlive.com";
 		driver.get(baseURL);
 		driver.manage().window().maximize();
@@ -116,21 +117,21 @@ public class UserSearch {
 		}
 	}
     
-    @Then("^Clicks employee list link to display employee$")
-    public void clicks_employee_list_link_to_display_employee() throws Throwable {
+    @Then("^Click employee list link to display employee$")
+    public void click_employee_list_link_to_display_employee() throws Throwable {
     	pp.emplLstLnkClick();
     	log.info("Employee list link click OK");
     }
     
-    @Then("^Clicks report to get employee report$")
-    public void clicks_report_to_get_employee_report() throws Throwable {
+    @Then("^Click report to get employee report$")
+    public void click_report_to_get_employee_report() throws Throwable {
     	
     	pp.reportlLnkClick();
     	log.info("Report link click OK");
     }
 
-    @Then("^Clicks add employee to add employee$")
-    public void clicks_add_employee_to_add_employee() throws Throwable {
+    @Then("^Click add employee to add employee$")
+    public void click_add_employee_to_add_employee() throws Throwable {
     	pp.addEmplLnkClick();
     	log.info("Add employee link click OK");
     }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="stepDefinition.TestRunner" time="118.595" tests="52" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="stepDefinition.TestRunner" time="64.633" tests="32" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="IN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_311\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\engsw\AppData\Local\Temp\surefire3379103471686476546\surefirebooter6067647349699573024.jar C:\Users\engsw\AppData\Local\Temp\surefire3379103471686476546 2022-01-13T22-38-06_189-jvmRun1 surefire136934300301099509tmp surefire_04987455642259361287tmp"/>
+    <property name="sun.java.command" value="C:\Users\engsw\AppData\Local\Temp\surefire2233632077069541131\surefirebooter9158979473320697750.jar C:\Users\engsw\AppData\Local\Temp\surefire2233632077069541131 2022-01-14T18-31-14_861-jvmRun1 surefire3163258234807939024tmp surefire_0808517500966838577tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\engsw\workspace_personal\Orange\target\test-classes;C:\Users\engsw\workspace_personal\Orange\target\classes;C:\Users\engsw\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\engsw\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\engsw\.m2\repository\org\seleniumhq\selenium\selenium-java\4.1.1\selenium-java-4.1.1.jar;C:\Users\engsw\.m2\repository\org\seleniumhq\selenium\selenium-api\4.1.1\selenium-api-4.1.1.jar;C:\Users\engsw\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.1.1\selenium-chrome-driver-4.1.1.jar;C:\Users\engsw\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\engsw\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\engsw\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\engsw\.m2\repository\com\google\guava\guava\31.0.1-jre\guava-31.0.1-jre.jar;C:\Users\engsw\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\engsw\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\engsw\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\engsw\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\engsw\.m2\repository\com\google\errorprone\error_prone_annotations\2.7.1\error_prone_annotations-2.7.1.jar;C:\Users\engsw\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\engsw\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.1.1\selenium-chromium-driver-4.1.1.jar;C:\Users\engsw\.m2\repository\org\seleniumhq\selenium\selenium-json\4.1.1\selenium-json-4.1.1.jar;C:\Users\engsw\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.1.1\selenium-devtools-v85-4.1.1.jar;C:\Users\engsw\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v94\4.1.1\selenium-devtools-v94-4.1.1.jar;C:\Users\engsw\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v95\4.1.1\selenium-devtools-v95-4.1.1.jar;C:\Users\engsw\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v96\4.1.1\selenium-devtools-v96-4.1.1.jar;C:\Users\engsw\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.1.1\selenium-edge-driver-4.1.1.jar;C:\Users\engsw\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.1.1\selenium-firefox-driver-4.1.1.jar;C:\Users\engsw\.m2\repository\org\seleniumhq\selenium\selenium-firefox-xpi-driver\4.1.1\selenium-firefox-xpi-driver-4.1.1.jar;C:\Users\engsw\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.1.1\selenium-ie-driver-4.1.1.jar;C:\Users\engsw\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.1.1\selenium-opera-driver-4.1.1.jar;C:\Users\engsw\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.1.1\selenium-remote-driver-4.1.1.jar;C:\Users\engsw\.m2\repository\com\beust\jcommander\1.81\jcommander-1.81.jar;C:\Users\engsw\.m2\repository\io\netty\netty-buffer\4.1.70.Final\netty-buffer-4.1.70.Final.jar;C:\Users\engsw\.m2\repository\io\netty\netty-codec-http\4.1.70.Final\netty-codec-http-4.1.70.Final.jar;C:\Users\engsw\.m2\repository\io\netty\netty-codec\4.1.70.Final\netty-codec-4.1.70.Final.jar;C:\Users\engsw\.m2\repository\io\netty\netty-handler\4.1.70.Final\netty-handler-4.1.70.Final.jar;C:\Users\engsw\.m2\repository\io\netty\netty-common\4.1.70.Final\netty-common-4.1.70.Final.jar;C:\Users\engsw\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.70.Final\netty-transport-classes-epoll-4.1.70.Final.jar;C:\Users\engsw\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.70.Final\netty-transport-classes-kqueue-4.1.70.Final.jar;C:\Users\engsw\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.70.Final\netty-transport-native-unix-common-4.1.70.Final.jar;C:\Users\engsw\.m2\repository\io\netty\netty-transport\4.1.70.Final\netty-transport-4.1.70.Final.jar;C:\Users\engsw\.m2\repository\io\netty\netty-resolver\4.1.70.Final\netty-resolver-4.1.70.Final.jar;C:\Users\engsw\.m2\repository\io\opentelemetry\opentelemetry-api\1.9.1\opentelemetry-api-1.9.1.jar;C:\Users\engsw\.m2\repository\io\opentelemetry\opentelemetry-context\1.9.1\opentelemetry-context-1.9.1.jar;C:\Users\engsw\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.9.1\opentelemetry-exporter-logging-1.9.1.jar;C:\Users\engsw\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.9.1-alpha\opentelemetry-sdk-metrics-1.9.1-alpha.jar;C:\Users\engsw\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.9.1-alpha\opentelemetry-sdk-logs-1.9.1-alpha.jar;C:\Users\engsw\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.0\jackson-databind-2.13.0.jar;C:\Users\engsw\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.0\jackson-annotations-2.13.0.jar;C:\Users\engsw\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.0\jackson-core-2.13.0.jar;C:\Users\engsw\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.9.1\opentelemetry-sdk-common-1.9.1.jar;C:\Users\engsw\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.9.1\opentelemetry-sdk-extension-autoconfigure-spi-1.9.1.jar;C:\Users\engsw\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.9.1-alpha\opentelemetry-sdk-extension-autoconfigure-1.9.1-alpha.jar;C:\Users\engsw\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.9.1\opentelemetry-sdk-trace-1.9.1.jar;C:\Users\engsw\.m2\repository\io\opentelemetry\opentelemetry-api-metrics\1.9.1-alpha\opentelemetry-api-metrics-1.9.1-alpha.jar;C:\Users\engsw\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.9.1\opentelemetry-sdk-1.9.1.jar;C:\Users\engsw\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.9.1-alpha\opentelemetry-semconv-1.9.1-alpha.jar;C:\Users\engsw\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\engsw\.m2\repository\net\bytebuddy\byte-buddy\1.12.2\byte-buddy-1.12.2.jar;C:\Users\engsw\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\engsw\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\engsw\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\engsw\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\engsw\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\engsw\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\engsw\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\engsw\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\engsw\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\engsw\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\engsw\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\engsw\.m2\repository\org\seleniumhq\selenium\selenium-http\4.1.1\selenium-http-4.1.1.jar;C:\Users\engsw\.m2\repository\net\jodah\failsafe\2.4.4\failsafe-2.4.4.jar;C:\Users\engsw\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.1.1\selenium-safari-driver-4.1.1.jar;C:\Users\engsw\.m2\repository\org\seleniumhq\selenium\selenium-support\4.1.1\selenium-support-4.1.1.jar;C:\Users\engsw\.m2\repository\io\cucumber\cucumber-java\7.2.2\cucumber-java-7.2.2.jar;C:\Users\engsw\.m2\repository\io\cucumber\cucumber-core\7.2.2\cucumber-core-7.2.2.jar;C:\Users\engsw\.m2\repository\io\cucumber\cucumber-gherkin\7.2.2\cucumber-gherkin-7.2.2.jar;C:\Users\engsw\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.2.2\cucumber-gherkin-messages-7.2.2.jar;C:\Users\engsw\.m2\repository\io\cucumber\messages\17.1.1\messages-17.1.1.jar;C:\Users\engsw\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\engsw\.m2\repository\io\cucumber\cucumber-expressions\15.0.1\cucumber-expressions-15.0.1.jar;C:\Users\engsw\.m2\repository\io\cucumber\datatable\7.2.2\datatable-7.2.2.jar;C:\Users\engsw\.m2\repository\io\cucumber\cucumber-plugin\7.2.2\cucumber-plugin-7.2.2.jar;C:\Users\engsw\.m2\repository\io\cucumber\docstring\7.2.2\docstring-7.2.2.jar;C:\Users\engsw\.m2\repository\io\cucumber\html-formatter\17.0.0\html-formatter-17.0.0.jar;C:\Users\engsw\.m2\repository\io\cucumber\ci-environment\8.1.0\ci-environment-8.1.0.jar;C:\Users\engsw\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\engsw\.m2\repository\io\cucumber\cucumber-junit\7.2.2\cucumber-junit-7.2.2.jar;C:\Users\engsw\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.1\log4j-api-2.17.1.jar;C:\Users\engsw\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.1\log4j-core-2.17.1.jar;C:\Users\engsw\.m2\repository\org\apache\logging\log4j\log4j-1.2-api\2.13.3\log4j-1.2-api-2.13.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\engsw"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\engsw\AppData\Local\Temp\surefire3379103471686476546\surefirebooter6067647349699573024.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\engsw\AppData\Local\Temp\surefire2233632077069541131\surefirebooter9158979473320697750.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_311\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_311\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -52,7 +52,7 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_311\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\engsw\apache-maven-3.8.4-bin\apache-maven-3.8.4/bin;C:\Program Files\Java\jdk1.8.0_311/bin;C:\Program Files\Java\jdk1.8.0_311/bin;C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_311\bin;C:\Users\engsw\libs\drivers;C:\Users\engsw\apache-maven-3.8.4-bin\apache-maven-3.8.4\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\engsw\AppData\Local\Android\Sdk\tools\bin;C:\Users\engsw\AppData\Local\Android\Sdk\tools;C:\Users\engsw\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\nodejs\node_modules\npm\bin;C:\Program Files\Git\cmd;C:\Users\engsw\AppData\Local\Microsoft\WindowsApps;C:\Users\engsw\AppData\Roaming\npm;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_311\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_311\bin;C:\Users\engsw\libs\drivers;C:\Users\engsw\apache-maven-3.8.4-bin\apache-maven-3.8.4\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\engsw\AppData\Local\Android\Sdk\tools\bin;C:\Users\engsw\AppData\Local\Android\Sdk\tools;C:\Users\engsw\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\nodejs\node_modules\npm\bin;C:\Program Files\Git\cmd;C:\Users\engsw\AppData\Local\Microsoft\WindowsApps;C:\Users\engsw\AppData\Roaming\npm;."/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="25.311-b11"/>
@@ -60,56 +60,36 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="User login with username as &quot;Admin&quot; password as &quot;admin123&quot;" classname="View employee list" time="2.617"/>
-  <testcase name="User navigate to pim link" classname="View employee list" time="1.18"/>
-  <testcase name="Clicks employee list link to display employee" classname="View employee list" time="0.715"/>
-  <testcase name="View employee list" classname="View employee list" time="2.247"/>
-  <testcase name="User login with username as &quot;Admin&quot; password as &quot;admin123&quot;" classname="Get employee report" time="2.304"/>
-  <testcase name="User navigate to pim link" classname="Get employee report" time="1.984"/>
-  <testcase name="Clicks report to get employee report" classname="Get employee report" time="0.67"/>
-  <testcase name="Get employee report" classname="Get employee report" time="2.307"/>
-  <testcase name="User login with username as &quot;Admin&quot; password as &quot;admin123&quot;" classname="Add employee" time="2.182"/>
-  <testcase name="User navigate to pim link" classname="Add employee" time="1.375"/>
-  <testcase name="Clicks add employee to add employee" classname="Add employee" time="0.527"/>
-  <testcase name="Add employee" classname="Add employee" time="2.218"/>
-  <testcase name="User login with username as &quot;Admin&quot; password as &quot;admin123&quot;" classname="Apply leave" time="2.975"/>
-  <testcase name="User navigate to leave link" classname="Apply leave" time="1.614"/>
-  <testcase name="Click apply leave" classname="Apply leave" time="0.654"/>
-  <testcase name="Apply leave" classname="Apply leave" time="2.312"/>
-  <testcase name="User login with username as &quot;Admin&quot; password as &quot;admin123&quot;" classname="Get my leaves" time="3.299"/>
-  <testcase name="User navigate to leave link" classname="Get my leaves" time="1.69"/>
-  <testcase name="Click my leaves" classname="Get my leaves" time="0.553"/>
-  <testcase name="Get my leaves" classname="Get my leaves" time="2.109"/>
-  <testcase name="User login with username as &quot;Admin&quot; password as &quot;admin123&quot;" classname="Check entitlements" time="2.184"/>
-  <testcase name="User navigate to leave link" classname="Check entitlements" time="2.188"/>
-  <testcase name="Click entitlements" classname="Check entitlements" time="0.14"/>
-  <testcase name="Check entitlements" classname="Check entitlements" time="1.494"/>
-  <testcase name="User login with username as &quot;Admin&quot; password as &quot;admin123&quot;" classname="Get leave reports" time="2.268"/>
-  <testcase name="User navigate to leave link" classname="Get leave reports" time="2.629"/>
-  <testcase name="Click leave reports" classname="Get leave reports" time="0.147"/>
-  <testcase name="Get leave reports" classname="Get leave reports" time="1.493"/>
-  <testcase name="User login with username as &quot;Admin&quot; password as &quot;admin123&quot;" classname="Configure leaves" time="2.078"/>
-  <testcase name="User navigate to leave link" classname="Configure leaves" time="2.339"/>
-  <testcase name="Click configure" classname="Configure leaves" time="0.072"/>
-  <testcase name="Configure leaves" classname="Configure leaves" time="1.5"/>
-  <testcase name="User login with username as &quot;Admin&quot; password as &quot;admin123&quot;" classname="Leave list" time="2.307"/>
-  <testcase name="User navigate to leave link" classname="Leave list" time="2.287"/>
-  <testcase name="Click leave list" classname="Leave list" time="0.507"/>
-  <testcase name="Leave list" classname="Leave list" time="1.933"/>
-  <testcase name="User login with username as &quot;Admin&quot; password as &quot;admin123&quot;" classname="Assign leave" time="2.237"/>
-  <testcase name="User navigate to leave link" classname="Assign leave" time="2.12"/>
-  <testcase name="Click Assign leave" classname="Assign leave" time="0.458"/>
-  <testcase name="Assign leave" classname="Assign leave" time="2.052"/>
-  <testcase name="User login with username as &quot;Admin&quot; password as &quot;admin123&quot;" classname="Search valid user from admin link" time="2.99"/>
-  <testcase name="User navigate to admin link" classname="Search valid user from admin link" time="1.179"/>
-  <testcase name="User add user to search as &quot;Garry.White&quot;" classname="Search valid user from admin link" time="0.088"/>
-  <testcase name="Click search" classname="Search valid user from admin link" time="0.438"/>
-  <testcase name="Search results with &quot;Garry.White&quot; or error display" classname="Search valid user from admin link" time="0.071"/>
-  <testcase name="Search valid user from admin link" classname="Search valid user from admin link" time="1.557"/>
-  <testcase name="User login with username as &quot;Admin&quot; password as &quot;admin123&quot;" classname="Search invalid user from admin link" time="2.37"/>
-  <testcase name="User navigate to admin link" classname="Search invalid user from admin link" time="2.055"/>
-  <testcase name="User add user to search as &quot;Swapnil&quot;" classname="Search invalid user from admin link" time="0.069"/>
-  <testcase name="Click search" classname="Search invalid user from admin link" time="0.38"/>
-  <testcase name="Search results with &quot;Swapnil&quot; or error display" classname="Search invalid user from admin link" time="0.028"/>
-  <testcase name="Search invalid user from admin link" classname="Search invalid user from admin link" time="1.441"/>
+  <testcase name="User login with username as &quot;Admin&quot; password as &quot;admin123&quot;" classname="View employee list" time="2.745"/>
+  <testcase name="User navigate to pim link" classname="View employee list" time="1.05"/>
+  <testcase name="Clicks employee list link to display employee" classname="View employee list" time="0.583"/>
+  <testcase name="View employee list" classname="View employee list" time="1.983"/>
+  <testcase name="User login with username as &quot;Admin&quot; password as &quot;admin123&quot;" classname="Apply leave" time="3.07"/>
+  <testcase name="User navigate to leave link" classname="Apply leave" time="1.259"/>
+  <testcase name="Click apply leave" classname="Apply leave" time="0.49"/>
+  <testcase name="Apply leave" classname="Apply leave" time="1.87"/>
+  <testcase name="User login with username as &quot;Admin&quot; password as &quot;admin123&quot;" classname="Get my leaves" time="2.718"/>
+  <testcase name="User navigate to leave link" classname="Get my leaves" time="1.168"/>
+  <testcase name="Click my leaves" classname="Get my leaves" time="0.374"/>
+  <testcase name="Get my leaves" classname="Get my leaves" time="1.684"/>
+  <testcase name="User login with username as &quot;Admin&quot; password as &quot;admin123&quot;" classname="Leave list" time="2.759"/>
+  <testcase name="User navigate to leave link" classname="Leave list" time="1.208"/>
+  <testcase name="Click leave list" classname="Leave list" time="0.418"/>
+  <testcase name="Leave list" classname="Leave list" time="1.815"/>
+  <testcase name="User login with username as &quot;Admin&quot; password as &quot;admin123&quot;" classname="Assign leave" time="2.739"/>
+  <testcase name="User navigate to leave link" classname="Assign leave" time="1.254"/>
+  <testcase name="Click Assign leave" classname="Assign leave" time="0.589"/>
+  <testcase name="Assign leave" classname="Assign leave" time="2.046"/>
+  <testcase name="User login with username as &quot;Admin&quot; password as &quot;admin123&quot;" classname="Search valid user from admin link" time="2.794"/>
+  <testcase name="User navigate to admin link" classname="Search valid user from admin link" time="0.941"/>
+  <testcase name="User add user to search as &quot;Garry.White&quot;" classname="Search valid user from admin link" time="0.066"/>
+  <testcase name="Click search" classname="Search valid user from admin link" time="0.416"/>
+  <testcase name="Search results with &quot;Garry.White&quot; or error display" classname="Search valid user from admin link" time="0.05"/>
+  <testcase name="Search valid user from admin link" classname="Search valid user from admin link" time="1.295"/>
+  <testcase name="User login with username as &quot;Admin&quot; password as &quot;admin123&quot;" classname="Search invalid user from admin link" time="2.717"/>
+  <testcase name="User navigate to admin link" classname="Search invalid user from admin link" time="0.957"/>
+  <testcase name="User add user to search as &quot;Swapnil&quot;" classname="Search invalid user from admin link" time="0.064"/>
+  <testcase name="Click search" classname="Search invalid user from admin link" time="0.354"/>
+  <testcase name="Search results with &quot;Swapnil&quot; or error display" classname="Search invalid user from admin link" time="0.036"/>
+  <testcase name="Search invalid user from admin link" classname="Search invalid user from admin link" time="1.3"/>
 </testsuite>

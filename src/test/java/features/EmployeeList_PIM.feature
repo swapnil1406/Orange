@@ -6,12 +6,12 @@ Feature: Retrieve employee list
 
   @Reg
   Scenario Outline: View employee list
-    Then Clicks employee list link to display employee
+    Then Click employee list link to display employee
 
   @Sanity
   Scenario Outline: Get employee report
-    Then Clicks report to get employee report
+    Then Click report to get employee report
 
   @Sanity
   Scenario Outline: Add employee
-    Then Clicks add employee to add employee
+    Then Click add employee to add employee
